@@ -1,0 +1,291 @@
+/* $eerie-black: rgba(33, 37, 41, 1);
+$sunray: rgba(237, 174, 73, 1);
+$cambridge-blue: rgba(153, 197, 181, 1);
+$bottle-green: rgba(11, 110, 79, 1);
+$scarlet: rgba(244, 44, 4, 1);
+https://coolors.co/212529-edae49-99c5b5-0b6e4f-f42c04*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    color: #116A54;
+}
+
+header {
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #020c1b;
+}
+
+li {
+    box-sizing: border-box;
+}
+
+header ul li {
+    font-family: monospace;
+    padding-bottom: 4px;
+}
+
+header ul li a{
+    padding-bottom: 4px;
+}
+
+header ul li:hover {
+    /* text-decoration: underline; */
+    border-bottom: 4px solid white;
+    padding-bottom: 0px;
+}
+
+#login-btn,#logo-ap {
+    padding-bottom: 4px;
+}
+
+#main-presentacion {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #0a192f;
+    padding-left: 11.719%;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#name-is {
+    font-family: monospace;
+    color: #64FFDA;
+    margin-bottom: 10px;
+}
+
+#name {
+    color: #CCD6F6;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    margin-bottom: 10px;
+}
+
+#profesion {
+    color: #8892B0;
+    font-size: 45px;
+    line-height: 0.9;
+    font-weight: 600;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+.email-link:hover {
+    background-color: rgba(100,255,218,0.1);
+    color: #64FFDA;
+    border-color: #64FFDA;
+}
+
+.email-link {
+    display: block;
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 36px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 28px;
+    padding-left: 28px;
+    font-family: monospace;
+}
+
+.seccion {
+    background-color: #0a192f;
+    padding-left: 11.719%;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 32px;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    color: #CCD6F6;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#p-div {
+    float: left;
+    width: 50%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #8892B0;
+}
+
+#padre {
+    display: flex;
+    width: 100%;
+}
+
+#foto-div {
+    float: right;
+    width: 50%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+#mi-foto {
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(100, 255, 218);
+    transition: all 0.5s;
+}
+
+#mi-foto:hover {
+    width: 280px;
+    height: 280px;
+    border: 4px solid rgb(100, 255, 218);
+}
+
+/* .title::before {
+    position: relative;
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    color: rgb(100, 255, 218);
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 400;
+} */
+
+.counter {
+    position: relative;
+    margin-right: 10px;
+    color: rgb(100, 255, 218);
+    font-family: monospace;
+    font-size: 0.8em;
+    font-weight: 400;
+}
+
+
+
+.title::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: 5px;
+    width: 250px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: #233554;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: 0.25s;
+    color:#64FFDA
+}
+
+a:hover {
+    color: #64FFDA;
+}
+
+.edu-text {
+    font-size: 28px;
+    font-weight: 600;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #8892B0;
+}
+
+#edu-ul {
+    color: #64FFDA;
+}
+
+.intro-contacto {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    color: #64FFDA;
+}
+
+.title-contacto {
+    font-size: 60px;
+    color: #CCD6F6;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+    margin-bottom: 10px;
+}
+
+#div-contacto {
+    box-sizing: border-box;
+    
+    /* margin-left: 184px;
+    margin-right: 184px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 11.719%; */
+
+    /* padding-left: 14.281%;
+    padding-right: 26%; */
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#p--contact {
+    display: block;
+    color: #8892B0;
+    margin: 0px;
+    width: 45%;
+}
+
+#contacto {
+    background-color: #0a192f;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
